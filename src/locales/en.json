@@ -1,0 +1,57 @@
+{
+  "header": {
+      "title": "ADVE.SPACE",
+      "slogan1": "Outdoor Advertising",
+      "slogan2": "and Campaign Monitoring",
+      "login": "Login",
+      "switch_to_russian": "Переключить на русский"
+  },
+  "how_it_works": "How it works?",
+  "interactive_map": "Interactive map of advertising structures in real-time",
+  "get_access_now": "Get access now",
+  "cities": {
+      "bucharest": "Bucharest",
+      "brasov": "Brasov",
+      "constanta": "Constanta"
+  },
+    "pricing": {
+      "current_info": "All current information",
+      "billboards": "10,000 billboards",
+      "as_of_today": "AS OF TODAY!",
+      "history_from_2024": "+ history from 2024"
+  },
+  "what_you_will_get": "What will you get?",
+  "features": {
+      "personal_account": "Access to personal account",
+      "advertising_map": "Map with advertising structures",
+      "current_creative": "Photo of current creative on the advertising structure",
+      "creative_history": "Creative history on the advertising structure",
+      "creative_analytics": "Analytics for creatives",
+      "advertiser_analytics": "Analytics for advertisers",
+      "coverage_diagrams": "Coverage diagrams"
+  },
+  "about_us": {
+      "title": "Who we are?",
+      "content": "adve.space is an independent outdoor advertising monitoring platform, created for advertisers, agencies, and anyone interested in the world of outdoor advertising. We aim to make the outdoor advertising market more transparent and accessible by providing up-to-date and detailed data on advertising campaigns nationwide."
+  },
+  "our_values": {
+      "title": "Our values",
+      "accuracy": "Accuracy:",
+      "accuracy_text": "Continuously updated database on creatives, structures, and campaigns.",
+      "independence": "Independence:",
+      "independence_text": "We are a neutral platform focused solely on providing quality analytics.",
+      "innovation": "Innovation:",
+      "innovation_text": "We use modern technologies to analyze and visualize data."
+  },
+  "footer": {
+      "rights": "adve.space | Independent outdoor advertising monitoring platform © 2024 adve.space. All rights reserved.",
+      "links": {
+          "about": "About us",
+          "offers": "Offers",
+          "contacts": "Contacts",
+          "partnership": "Partnership",
+          "privacy_policy": "Privacy Policy",
+          "user_agreement": "User Agreement"
+      }
+  }
+}
