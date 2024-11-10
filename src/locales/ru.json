@@ -4,8 +4,8 @@
       "slogan1": "Мониторинг наружной рекламы",
       "slogan2": "и рекламных кампаний",
       "login": "Войти",
-      "switch_to_english": "Switch to English"
-  },
+      "logout": "Выйти"
+    },
   "how_it_works": "Как это работает?",
   "interactive_map": "Интерактивная карта рекламных конструкций в режиме реального времени",
   "get_access_now": "Получи доступ сейчас",
@@ -53,6 +53,14 @@
           "privacy_policy": "Политика конфиденциальности",
           "user_agreement": "Пользовательское соглашение"
       }
+  },
+  "app": {
+    "cityLabel": "Город:",
+    "advertiserLabel": "Рекламодатель",
+    "creativeLabel": "Креатив",
+    "searchPlaceholder": "Поиск по городу, рекламодателю, креативу...",
+    "getReport": "Получить отчет",
+    "recentSearches": "Последние поиски"
   }
 }
 

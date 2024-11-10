@@ -4,7 +4,7 @@
       "slogan1": "Outdoor Advertising",
       "slogan2": "and Campaign Monitoring",
       "login": "Login",
-      "switch_to_russian": "Переключить на русский"
+      "logout": "Logout"
   },
   "how_it_works": "How it works?",
   "interactive_map": "Interactive map of advertising structures in real-time",
@@ -53,5 +53,13 @@
           "privacy_policy": "Privacy Policy",
           "user_agreement": "User Agreement"
       }
+  },
+  "app": {
+    "cityLabel": "City",
+    "advertiserLabel": "Advertiser",
+    "creativeLabel": "Creative",
+    "searchPlaceholder": "Search by city, advertiser, creative...",
+    "getReport": "Get Report",
+    "recentSearches": "Recent Searches"
   }
 }

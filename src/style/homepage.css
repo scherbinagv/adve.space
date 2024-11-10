@@ -64,7 +64,16 @@ header p {
     gap: 10px; /* Отступ между кнопками */
 }
 
-.login-button {
+.language-dropdown {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth-button {
     padding: 10px 20px;
     background-color: #333;
     color: #FFF;
@@ -75,7 +84,7 @@ header p {
     text-decoration: none;
     transition: background 0.3s;
 }
-.login-button:hover {
+.auth-button:hover {
     background-color: #555;
 }
 

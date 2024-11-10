@@ -1,0 +1,66 @@
+{
+    "header": {
+        "title": "ADVE.SPACE",
+        "slogan1": "Monitorizarea publicității exterioare",
+        "slogan2": "și a campaniilor publicitare",
+        "login": "Autentificare",
+        "logout": "Deconectare"
+    },
+    "how_it_works": "Cum funcționează?",
+    "interactive_map": "Hartă interactivă a structurilor publicitare în timp real",
+    "get_access_now": "Obține acces acum",
+    "cities": {
+        "bucharest": "București",
+        "brasov": "Brașov",
+        "constanta": "Constanța"
+    },
+    "pricing": {
+      "current_info": "Toate informațiile actuale",
+      "billboards": "10,000 panouri publicitare",
+      "as_of_today": "PANA ASTĂZI!",
+      "history_from_2024": "+ istoric din 2024"
+    },
+    "what_you_will_get": "Ce veți obține?",
+    "features": {
+        "personal_account": "Acces la contul personal",
+        "advertising_map": "Hartă cu structuri publicitare",
+        "current_creative": "Fotografie a creativului actual pe structura publicitară",
+        "creative_history": "Istoricul creativelor pe structura publicitară",
+        "creative_analytics": "Analiza creativelor",
+        "advertiser_analytics": "Analiza advertiserilor",
+        "coverage_diagrams": "Diagramele de acoperire"
+    },
+    "about_us": {
+        "title": "Cine suntem?",
+        "content": "adve.space este o platformă independentă de monitorizare a publicității exterioare, creată pentru advertiseri, agenții și toți cei interesați de lumea publicității outdoor. Ne străduim să facem piața publicității exterioare mai transparentă și accesibilă, oferind date actualizate și detaliate despre campaniile publicitare din întreaga țară."
+    },
+    "our_values": {
+        "title": "Valorile noastre",
+        "accuracy": "Precizie:",
+        "accuracy_text": "Baza de date actualizată constant cu creativuri, structuri și campanii.",
+        "independence": "Independență:",
+        "independence_text": "Suntem o platformă neutră, care lucrează exclusiv pentru a oferi analize de calitate.",
+        "innovation": "Inovații:",
+        "innovation_text": "Folosim tehnologii moderne pentru analiza și vizualizarea datelor."
+    },
+    "footer": {
+        "rights": "adve.space | Platformă independentă de monitorizare a publicității exterioare © 2024 adve.space. Toate drepturile rezervate.",
+        "links": {
+            "about": "Despre noi",
+            "offers": "Oferte",
+            "contacts": "Contacte",
+            "partnership": "Parteneriate",
+            "privacy_policy": "Politica de confidențialitate",
+            "user_agreement": "Acordul utilizatorului"
+        }
+    },
+    "app": {
+        "cityLabel": "Oraș:",
+        "advertiserLabel": "Reclamător",
+        "creativeLabel": "Creativ",
+        "searchPlaceholder": "Căutare după oraș, advertiser, creativ...",
+        "getReport": "Obține raportul",
+        "recentSearches": "Căutări recente"
+    }
+  }
+  
