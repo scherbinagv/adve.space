@@ -5,9 +5,9 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 
 // Импорт переводов
-import en from './locales/en.json';
-import ru from './locales/ru.json';
-import ro from './locales/ro.json';
+import en from '/locales/en.json';
+import ru from '/locales/ru.json';
+import ro from '/locales/ro.json';
 import it from './locales/it.json';
 import bg from './locales/bg.json';
 
