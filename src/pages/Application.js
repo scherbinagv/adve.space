@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Routes, Route, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import ItemInfo from './app/ItemInfo'; // Импортируем Popup компонент
 import ReportView from './app/ReportView';

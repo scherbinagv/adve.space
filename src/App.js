@@ -1,5 +1,5 @@
 import React, { useEffect, useState  }  from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate, useParams, useNavigate } from 'react-router-dom';
+import { BrowserRouter as  Routes, Route, Navigate, useParams, useNavigate } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import Application from './pages/Application';
 import Tariffs from './pages/app/Tariffs';
@@ -239,12 +239,12 @@ function App() {
 
         <footer className="footer">
           <p>{t('footer.rights')}</p>
-          <a href="#">{t('footer.links.about')}</a> | 
-          <a href="#">{t('footer.links.offers')}</a> | 
-          <a href="#">{t('footer.links.contacts')}</a> | 
-          <a href="#">{t('footer.links.partnership')}</a> | 
-          <a href="#">{t('footer.links.privacy_policy')}</a> | 
-          <a href="#">{t('footer.links.user_agreement')}</a>
+          <a>{t('footer.links.about')}</a> | 
+          <a>{t('footer.links.offers')}</a> | 
+          <a>{t('footer.links.contacts')}</a> | 
+          <a>{t('footer.links.partnership')}</a> | 
+          <a>{t('footer.links.privacy_policy')}</a> | 
+          <a>{t('footer.links.user_agreement')}</a>
         </footer>
       </div>
   );
