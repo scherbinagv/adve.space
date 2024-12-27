@@ -10,7 +10,9 @@ import './i18n'; // Импорт настроек i18next
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-    <Router basename="/adve.space"> 
+    <Router 
+      // basename="/adve.space
+    > 
       <App />
     </Router>
   // </React.StrictMode>
