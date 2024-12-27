@@ -44,27 +44,27 @@ function App() {
     {
       value: 'en',
       label: 'EN',
-      flag: '/images/flags/United-Kingdom.png',
+      flag: './images/flags/United-Kingdom.png',
     },
     {
       value: 'ru',
       label: 'RU',
-      flag: '/images/flags/Unknown.png',
+      flag: './images/flags/Unknown.png',
     },
     {
       value: 'ro',
       label: 'RO',
-      flag: '/images/flags/Romania.png',
+      flag: './images/flags/Romania.png',
     },
     {
       value: 'it',
       label: 'IT',
-      flag: '/images/flags/Italy.png',
+      flag: './images/flags/Italy.png',
     },
     {
       value: 'bg',
       label: 'BG',
-      flag: '/images/flags/Bulgaria.png',
+      flag: './images/flags/Bulgaria.png',
     },
   ];
 
@@ -166,7 +166,7 @@ function App() {
       <div>
         <header>
           <div className="header-left" onClick={handleLogoClick}>
-            <img src="/images/logo.png" alt="Logo" className="logo"/>
+            <img src="./images/logo.png" alt="Logo" className="logo"/>
             <div className="header-text">
               <h1>{i18n.t('header.title')}</h1>
             </div>
