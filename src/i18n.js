@@ -36,7 +36,8 @@ i18n
       caches: ['cookie', 'localStorage'], // Кеширование только в cookie и localStorage
       excludeCacheFor: ['cimode'], // Не кешировать язык, если он в режиме отладки
       cookieOptions: {
-        path: '/adve.space', // Указываем путь для cookie
+        path: '/', // Указываем путь для cookie
+        domain: 'scherbinagv.github.io/adve.space', // Явный домен
       },
     },
     // Убираем региональный код
