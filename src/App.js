@@ -70,9 +70,9 @@ function App() {
 
   const handleLogoClick = () => {
     if (isAuthenticated) {
-      navigate('/' + i18n.language + '/app'); 
+      navigate('./' + i18n.language + './app'); 
     } else {
-      navigate('/' + i18n.language );
+      navigate('./' + i18n.language );
     }
   };
 
@@ -105,7 +105,7 @@ function App() {
       setIsAuthenticated(false); 
   
       // Переход на главную страницу
-      navigate('/' + i18n.language); 
+      navigate('./' + i18n.language); 
     } catch (error) {
       console.error("Ошибка при завершении сессии:", error);
     }
@@ -114,7 +114,7 @@ function App() {
   const handleLanguageChange = (event) => {
     const newLanguage = event.value;
     i18n.changeLanguage(newLanguage); // Меняем язык
-    navigate(`/${newLanguage}${window.location.pathname.replace(/^\/[a-z]{2}/, '')}`); // Навигация без перезагрузки
+    navigate(`./${newLanguage}${window.location.pathname.replace(/^\/[a-z]{2}/, '')}`); // Навигация без перезагрузки
   };
 
   const handleLoginSuccess = async (response) => {
@@ -225,13 +225,13 @@ function App() {
         <div className="page-wrapper">
           <div className="content">
             <Routes>
-            <Route path="/" element={<Navigate to={`/${i18n.language.split('-')[0]}`} />} />
-              <Route path="/:lang" element={<LanguageRoute />} />
-              <Route path="/:lang/app/*" element={<Application />} />
-              <Route path="/:lang/tariffs/*" element={<Tariffs />} />
-              <Route path="/:lang/invoices/*" element={<Invoices />} />
-              <Route path="/:lang/settings/*" element={<Settings username={username} />} />
-              <Route path="/:lang/admin/*" element={<AdminPage />} />
+            <Route path="./" element={<Navigate to={`/${i18n.language.split('-')[0]}`} />} />
+              <Route path="./:lang" element={<LanguageRoute />} />
+              <Route path="./:lang/app/*" element={<Application />} />
+              <Route path="./:lang/tariffs/*" element={<Tariffs />} />
+              <Route path="./:lang/invoices/*" element={<Invoices />} />
+              <Route path="./:lang/settings/*" element={<Settings username={username} />} />
+              <Route path="./:lang/admin/*" element={<AdminPage />} />
             </Routes>
           </div>
         </div>

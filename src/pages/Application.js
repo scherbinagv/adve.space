@@ -418,7 +418,7 @@ function Application() {
                         </div>
                         <button
                             className="tariff-button"
-                            onClick={() => navigate('/' + i18n.language + '/tariffs')} 
+                            onClick={() => navigate('./' + i18n.language + '/tariffs')} 
                         >
                             {t('app.viewTariffs')}
                         </button>
