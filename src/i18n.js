@@ -37,7 +37,6 @@ i18n
       excludeCacheFor: ['cimode'], // Не кешировать язык, если он в режиме отладки
       cookieOptions: {
         path: '/', // Указываем путь для cookie
-        domain: 'scherbinagv.github.io/adve.space', // Явный домен
       },
     },
     // Убираем региональный код
