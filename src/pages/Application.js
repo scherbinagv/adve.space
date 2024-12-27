@@ -74,10 +74,10 @@ function Application() {
 
     const getIconUrl = (itemTypeId) => {
         switch(itemTypeId) {
-            case 1: return '/images/bb1.svg';
-            case 2: return '/images/bb2.svg';
-            case 3: return '/images/bb3.svg';
-            default: return '/images/bb1.svg';  
+            case 1: return './images/bb1.svg';
+            case 2: return './images/bb2.svg';
+            case 3: return './images/bb3.svg';
+            default: return './images/bb1.svg';  
         }
     };
 
@@ -418,7 +418,7 @@ function Application() {
                         </div>
                         <button
                             className="tariff-button"
-                            onClick={() => navigate('./' + i18n.language + '/tariffs')} 
+                            onClick={() => navigate('./' + i18n.language + './tariffs')} 
                         >
                             {t('app.viewTariffs')}
                         </button>

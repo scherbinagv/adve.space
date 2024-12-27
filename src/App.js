@@ -149,7 +149,7 @@ function App() {
 
         // Устанавливаем состояние аутентификации и выполняем редирект
         setIsAuthenticated(true); // Авторизация
-        navigate(`/${i18n.language}/app`); // Переход на страницу /ru/app или /en/app
+        navigate(`./${i18n.language}/app`); // Переход на страницу /ru/app или /en/app
         setShowPopup(false); // Закрытие popup при необходимости
 
     } catch (error) {
