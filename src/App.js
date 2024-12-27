@@ -255,11 +255,11 @@ function LanguageRoute() {
   const { lang } = useParams(); // Извлекаем язык из параметра URL
   const { t, i18n } = useTranslation();
 
-  // useEffect(() => {
-  //   if (lang) {
-  //     i18n.changeLanguage(lang); // Меняем язык в i18next
-  //   }
-  // }, [lang, i18n]);
+  useEffect(() => {
+    if (lang) {
+      i18n.changeLanguage(lang); // Меняем язык в i18next
+    }
+  }, [lang, i18n]);
 
   return <HomePage />; // Выводим компонент страницы
 }
