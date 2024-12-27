@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/adve.space/static/css/main.7c01d138.css",
-    "main.js": "/adve.space/static/js/main.e8b57b07.js",
-    "static/js/453.66583185.chunk.js": "/adve.space/static/js/453.66583185.chunk.js",
-    "index.html": "/adve.space/index.html",
-    "main.7c01d138.css.map": "/adve.space/static/css/main.7c01d138.css.map",
-    "main.e8b57b07.js.map": "/adve.space/static/js/main.e8b57b07.js.map",
-    "453.66583185.chunk.js.map": "/adve.space/static/js/453.66583185.chunk.js.map"
+    "main.css": "/static/css/main.548df3b2.css",
+    "main.js": "/static/js/main.e959e215.js",
+    "static/js/453.66583185.chunk.js": "/static/js/453.66583185.chunk.js",
+    "index.html": "/index.html",
+    "main.548df3b2.css.map": "/static/css/main.548df3b2.css.map",
+    "main.e959e215.js.map": "/static/js/main.e959e215.js.map",
+    "453.66583185.chunk.js.map": "/static/js/453.66583185.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c01d138.css",
-    "static/js/main.e8b57b07.js"
+    "static/css/main.548df3b2.css",
+    "static/js/main.e959e215.js"
   ]
 }
