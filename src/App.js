@@ -112,7 +112,7 @@ function App() {
   };  
 
   const handleLanguageChange = (event) => {
-    console.log(event)
+    console.log(i18n.language)
     const newLanguage = event.value;
     i18n.changeLanguage(newLanguage); // Меняем язык
     navigate(`/${newLanguage}${window.location.pathname.replace(/^\/[a-z]{2}/, '')}`); // Навигация без перезагрузки
