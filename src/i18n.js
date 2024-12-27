@@ -35,6 +35,9 @@ i18n
       // настройка для игнорирования региона
       caches: ['cookie', 'localStorage'], // Кеширование только в cookie и localStorage
       excludeCacheFor: ['cimode'], // Не кешировать язык, если он в режиме отладки
+      cookieOptions: {
+        path: '/adve.space', // Указываем путь для cookie
+      },
     },
     // Убираем региональный код
     supportedLngs: ['en', 'ru', 'ro', 'it', 'bg'], // только языковые коды, без региона
