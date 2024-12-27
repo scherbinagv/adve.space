@@ -70,9 +70,9 @@ function App() {
 
   const handleLogoClick = () => {
     if (isAuthenticated) {
-      navigate('/' + i18n.language + '/app'); 
+      navigate('./' + i18n.language + '/app'); 
     } else {
-      navigate('/' + i18n.language );
+      navigate('./' + i18n.language );
     }
   };
 
