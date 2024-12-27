@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/adve.space/static/css/main.548df3b2.css",
-    "main.js": "/adve.space/static/js/main.e6251036.js",
+    "main.js": "/adve.space/static/js/main.c096880b.js",
     "static/js/453.66583185.chunk.js": "/adve.space/static/js/453.66583185.chunk.js",
     "index.html": "/adve.space/index.html",
     "main.548df3b2.css.map": "/adve.space/static/css/main.548df3b2.css.map",
-    "main.e6251036.js.map": "/adve.space/static/js/main.e6251036.js.map",
+    "main.c096880b.js.map": "/adve.space/static/js/main.c096880b.js.map",
     "453.66583185.chunk.js.map": "/adve.space/static/js/453.66583185.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.548df3b2.css",
-    "static/js/main.e6251036.js"
+    "static/js/main.c096880b.js"
   ]
 }
