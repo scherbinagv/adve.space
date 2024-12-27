@@ -225,7 +225,7 @@ function App() {
         <div className="page-wrapper">
           <div className="content">
             <Routes>
-            <Route path="/" element={<Navigate to={`/${i18n.language.split('-')[0]}`} />} />
+            <Route path="/" element={<Navigate to={`./${i18n.language.split('-')[0]}`} />} />
               <Route path="/:lang" element={<LanguageRoute />} />
               <Route path="/:lang/app/*" element={<Application />} />
               <Route path="/:lang/tariffs/*" element={<Tariffs />} />
