@@ -105,7 +105,7 @@ function App() {
       setIsAuthenticated(false); 
   
       // Переход на главную страницу
-      navigate('./' + i18n.language); 
+      navigate('/' + i18n.language); 
     } catch (error) {
       console.error("Ошибка при завершении сессии:", error);
     }
@@ -114,7 +114,7 @@ function App() {
   const handleLanguageChange = (event) => {
     const newLanguage = event.value;
     i18n.changeLanguage(newLanguage); // Меняем язык
-    navigate(`./${newLanguage}${window.location.pathname.replace(/^\/[a-z]{2}/, '')}`); // Навигация без перезагрузки
+    navigate(`/${newLanguage}${window.location.pathname.replace(/^\/[a-z]{2}/, '')}`); // Навигация без перезагрузки
   };
 
   const handleLoginSuccess = async (response) => {
