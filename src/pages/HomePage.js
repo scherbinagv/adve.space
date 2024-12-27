@@ -17,7 +17,8 @@ const HomePage = () => {
             zoomControl: false,
             scrollWheelZoom: false,
             doubleClickZoom: false,
-            touchZoom: false
+            touchZoom: false,
+            dragging: false
         });
 
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -130,7 +131,7 @@ const HomePage = () => {
                             {t('pricing.as_of_today')} <br />
                             {t('pricing.history_from_2024')}
                         </p>                            
-                        <a className="button">{t('get_access_now')}</a>
+                        <a href="#" className="button">{t('get_access_now')}</a>
                     </div>
                     <div className="card">
                         <h3>{t('cities.brasov')}</h3>
@@ -141,7 +142,7 @@ const HomePage = () => {
                             {t('pricing.as_of_today')} <br />
                             {t('pricing.history_from_2024')}
                         </p>       
-                        <a className="button">{t('get_access_now')}</a>
+                        <a href="#" className="button">{t('get_access_now')}</a>
                     </div>
                     <div className="card">
                         <h3>{t('cities.constanta')}</h3>
@@ -152,7 +153,7 @@ const HomePage = () => {
                             {t('pricing.as_of_today')} 
                             
                         </p>       
-                        <a className="button">{t('get_access_now')}</a>
+                        <a href="#" className="button">{t('get_access_now')}</a>
                     </div>
                 </div>
 

@@ -1,0 +1,192 @@
+{
+  "header": {
+    "title": "ADVE.SPACE",
+    "slogan1": "Открита реклама",
+    "slogan2": "и мониторинг на кампании",
+    "login": "Вход",
+    "logout": "Изход",
+    "authOption": "Вход с",
+    "googleAuth": "Google",
+    "close": "Затвори"
+  },
+  "user_menu": {
+    "notifications": "Уведомления",
+    "application": "Приложение",
+    "tariffs": "Тарифи",
+    "invoices": "Фактури",
+    "settings": "Настройки",
+    "logout": "Изход",
+    "admin": "Административен панел"
+  },
+  "how_it_works": "Как работи?",
+  "interactive_map": "Интерактивна карта на рекламни структури в реално време",
+  "get_access_now": "Получете достъп сега",
+  "cities": {
+    "bucharest": "Букурещ",
+    "brasov": "Брашов",
+    "constanta": "Констанца"
+  },
+  "pricing": {
+    "current_info": "Цялата текуща информация",
+    "billboards": "10 000 билборда",
+    "as_of_today": "КЪМ ДНЕШНА ДАТА!",
+    "history_from_2024": "+ история от 2024"
+  },
+  "what_you_will_get": "Какво ще получите?",
+  "features": {
+    "personal_account": "Достъп до личен акаунт",
+    "advertising_map": "Карта с рекламни структури",
+    "current_creative": "Снимка на текущия креатив на рекламната структура",
+    "creative_history": "История на креативите на рекламната структура",
+    "creative_analytics": "Анализ на креативите",
+    "advertiser_analytics": "Анализ на рекламодателите",
+    "coverage_diagrams": "Диаграми за покритие"
+  },
+  "about_us": {
+    "title": "Кои сме ние?",
+    "content": "adve.space е независима платформа за мониторинг на открита реклама, създадена за рекламодатели, агенции и всеки, който се интересува от света на откритата реклама. Целта ни е да направим пазара на открита реклама по-прозрачен и достъпен, като предоставяме актуални и подробни данни за рекламни кампании в цялата страна."
+  },
+  "our_values": {
+    "title": "Нашите ценности",
+    "accuracy": "Точност:",
+    "accuracy_text": "Непрекъснато актуализирана база данни за креативи, структури и кампании.",
+    "independence": "Независимост:",
+    "independence_text": "Ние сме неутрална платформа, фокусирана само върху предоставяне на качествена аналитика.",
+    "innovation": "Иновации:",
+    "innovation_text": "Използваме съвременни технологии за анализ и визуализация на данни."
+  },
+  "footer": {
+    "rights": "adve.space | Независима платформа за мониторинг на открита реклама © 2024 adve.space. Всички права запазени.",
+    "links": {
+      "about": "За нас",
+      "offers": "Оферти",
+      "contacts": "Контакти",
+      "partnership": "Партньорство",
+      "privacy_policy": "Политика за конфиденциалност",
+      "user_agreement": "Потребителско споразумение"
+    }
+  },
+  "app": {
+    "filter": "Филтър",
+    "activeTariffLabel": "По тариф",
+    "categories": "Категория",
+    "cityLabel": "Град:",
+    "advertisers": "Рекламодател",
+    "searchAdvertisers": "Търсене на рекламодател",
+    "availabilityLabel": "Наличност",
+    "creativeLabel": "Креатив",
+    "searchPlaceholder": "Търсене по град, рекламодател, креатив...",
+    "getReport": "Вземете отчет",
+    "recentSearches": "Последни търсения",
+    "freeSpace": "Свободно място",
+    "occupiedSpace": "Заето място",
+    "demoTariffMessage": "Използва се тарифата",
+    "demoTariffDetails": "За пълна информация вижте наличните тарифи.",
+    "viewTariffs": "Вижте тарифите",
+    "noFilter": "Без филтър"
+  },
+  "settings": {
+    "emailTitle": "Имейл",
+    "notificationsTitle": "Получаване на уведомления",
+    "notifications": {
+      "summaryReport": "Обобщен отчет",
+      "favoritesUpdate": "Актуализация на любими",
+      "newOffers": "Нови оферти",
+      "reminders": "Напомняния"
+    },
+    "saveButton": "Запази"
+  },
+  "tariffs": {
+    "active_tarrifs": "Активни тарифи",
+    "options_tarrifs": "Получете достъп сега",
+    "update_button": "Актуализирайте за",
+    "purchase_date": "Дата на покупка",
+    "updates_count": "Брой актуализации от покупката",
+    "get_invoice": "Получете фактура",
+    "buy_button": "Купете за",
+    "tracked_panels": "Проследявани панели"
+  },
+  "cart": {
+    "title": "Количка",
+    "empty": "Все още е празна",
+    "total": "Общо",
+    "get_invoice": "Получаване на фактура",
+    "remove_button": "Премахни от количката"
+  },
+  "invoices": {
+    "pending_title": "Чакащи фактури",
+    "paid_title": "Платени фактури",
+    "invoice_number": "Номер на фактура",
+    "invoice_date": "Дата на фактурата",
+    "services": "Услуги",
+    "total_amount": "Обща сума",
+    "due_date": "Крайна дата за плащане",
+    "no_invoices": "Няма налични фактури"
+  },
+  "invoice": {
+    "title": "Фактура",
+    "recipient": "Получател",
+    "invoice_number": "Номер на фактура",
+    "invoice_date": "Дата на фактурата",
+    "due_date": "Крайна дата",
+    "bank": "Банка",
+    "account_details": "Данни за сметката",
+    "service": "Услуга",
+    "price": "Цена",
+    "total_amount": "Обща сума",
+    "pay_button": "Плати",
+    "comment": "Услугите ще бъдат активирани на следващия работен ден след плащането.",
+    "close_button": "Затвори"
+  },
+  "admin_panel": {
+    "items": "Структури",
+    "invoices": "Фактури",
+    "advertisers": "Рекламодатели",
+    "creatives": "Креативи",
+    "images": "Снимки"
+  },
+  "categories": {
+    "Politics": "Политика",
+    "Pharmacies": "Аптеки",
+    "Sport": "Спорт",
+    "Hypermarkets": "Хипермаркети",
+    "Construction Stores": "Строителни магазини",
+    "Online Stores": "Онлайн магазини",
+    "Real Estate": "Недвижимост",
+    "Banks": "Банки",
+    "Microcredits": "Микрокредити",
+    "Tourism and Recreation": "Туризъм и отдих",
+    "Cars": "Автомобили",
+    "Mobile Operators": "Мобилни оператори",
+    "Culture and Art": "Култура и изкуство",
+    "Restaurants": "Ресторанти",
+    "Beauty and Health": "Красота и здраве",
+    "Social Projects": "Социални проекти",
+    "Gambling": "Хазартни игри",
+    "Gas Stations": "Бензиностанции",
+    "Furniture Stores": "Магазини за мебели",
+    "Food Products": "Хранителни продукти",
+    "Electronics Stores": "Магазини за електроника",
+    "Grocery Stores": "Магазини за хранителни стоки",
+    "Advertising Placement": "Разположение на реклама",
+    "Building Materials": "Строителни материали",
+    "Household Goods": "Стоки за дома",
+    "Clothing and Footwear": "Дрехи и обувки",
+    "IT and Technology": "ИТ и технологии"
+  },
+  "itemInfo": {
+    "panel": "Панел",
+    "imageAlt": "Изображение {{name}}",
+    "lastUpdate": "Последна актуализация",
+    "advertiser": "Рекламодател",
+    "creative": "Креатив",
+    "loadHistory": "Зареди история",
+    "noHistory": "Няма история",
+    "noData": "Няма данни",
+    "none": "Няма",
+    "close": "Затвори",
+    "fullscreenImageAlt": "Изображение на цял екран",
+    "historyImageAlt": "История {{date}}"
+  }
+}
+  

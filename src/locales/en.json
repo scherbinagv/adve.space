@@ -1,65 +1,193 @@
 {
   "header": {
-      "title": "ADVE.SPACE",
-      "slogan1": "Outdoor Advertising",
-      "slogan2": "and Campaign Monitoring",
-      "login": "Login",
-      "logout": "Logout"
+    "title": "ADVE.SPACE",
+    "slogan1": "Outdoor Advertising",
+    "slogan2": "and Campaign Monitoring",
+    "login": "Login",
+    "logout": "Logout",
+    "authOption": "Login with",
+    "googleAuth": "Google",
+    "close": "Close"
   },
+
+  "user_menu": {
+    "notifications": "Notifications",
+    "application": "Application",
+    "tariffs": "Tariffs",
+    "invoices": "Invoices",
+    "settings": "Settings",
+    "logout": "Logout",
+    "admin": "Admin Panel"
+  },
+
   "how_it_works": "How it works?",
   "interactive_map": "Interactive map of advertising structures in real-time",
   "get_access_now": "Get access now",
   "cities": {
-      "bucharest": "Bucharest",
-      "brasov": "Brasov",
-      "constanta": "Constanta"
+    "bucharest": "Bucharest",
+    "brasov": "Brasov",
+    "constanta": "Constanta"
   },
-    "pricing": {
-      "current_info": "All current information",
-      "billboards": "10,000 billboards",
-      "as_of_today": "AS OF TODAY!",
-      "history_from_2024": "+ history from 2024"
+  "pricing": {
+    "current_info": "All current information",
+    "billboards": "10,000 billboards",
+    "as_of_today": "AS OF TODAY!",
+    "history_from_2024": "+ history from 2024"
   },
   "what_you_will_get": "What will you get?",
   "features": {
-      "personal_account": "Access to personal account",
-      "advertising_map": "Map with advertising structures",
-      "current_creative": "Photo of current creative on the advertising structure",
-      "creative_history": "Creative history on the advertising structure",
-      "creative_analytics": "Analytics for creatives",
-      "advertiser_analytics": "Analytics for advertisers",
-      "coverage_diagrams": "Coverage diagrams"
+    "personal_account": "Access to personal account",
+    "advertising_map": "Map with advertising structures",
+    "current_creative": "Photo of current creative on the advertising structure",
+    "creative_history": "Creative history on the advertising structure",
+    "creative_analytics": "Analytics for creatives",
+    "advertiser_analytics": "Analytics for advertisers",
+    "coverage_diagrams": "Coverage diagrams"
   },
   "about_us": {
-      "title": "Who we are?",
-      "content": "adve.space is an independent outdoor advertising monitoring platform, created for advertisers, agencies, and anyone interested in the world of outdoor advertising. We aim to make the outdoor advertising market more transparent and accessible by providing up-to-date and detailed data on advertising campaigns nationwide."
+    "title": "Who we are?",
+    "content": "adve.space is an independent outdoor advertising monitoring platform, created for advertisers, agencies, and anyone interested in the world of outdoor advertising. We aim to make the outdoor advertising market more transparent and accessible by providing up-to-date and detailed data on advertising campaigns nationwide."
   },
   "our_values": {
-      "title": "Our values",
-      "accuracy": "Accuracy:",
-      "accuracy_text": "Continuously updated database on creatives, structures, and campaigns.",
-      "independence": "Independence:",
-      "independence_text": "We are a neutral platform focused solely on providing quality analytics.",
-      "innovation": "Innovation:",
-      "innovation_text": "We use modern technologies to analyze and visualize data."
+    "title": "Our values",
+    "accuracy": "Accuracy:",
+    "accuracy_text": "Continuously updated database on creatives, structures, and campaigns.",
+    "independence": "Independence:",
+    "independence_text": "We are a neutral platform focused solely on providing quality analytics.",
+    "innovation": "Innovation:",
+    "innovation_text": "We use modern technologies to analyze and visualize data."
   },
   "footer": {
-      "rights": "adve.space | Independent outdoor advertising monitoring platform © 2024 adve.space. All rights reserved.",
-      "links": {
-          "about": "About us",
-          "offers": "Offers",
-          "contacts": "Contacts",
-          "partnership": "Partnership",
-          "privacy_policy": "Privacy Policy",
-          "user_agreement": "User Agreement"
-      }
+    "rights": "adve.space | Independent outdoor advertising monitoring platform © 2024 adve.space. All rights reserved.",
+    "links": {
+        "about": "About us",
+        "offers": "Offers",
+        "contacts": "Contacts",
+        "partnership": "Partnership",
+        "privacy_policy": "Privacy Policy",
+        "user_agreement": "User Agreement"
+    }
   },
   "app": {
-    "cityLabel": "City",
-    "advertiserLabel": "Advertiser",
+    "filter": "Filter",
+    "activeTariffLabel": "By tariff",
+    "categories": "Category",
+    "cityLabel": "City:",
+    "advertisers": "Advertiser",
+    "searchAdvertisers": "Search advertiser",
+    "availabilityLabel": "Availability",
     "creativeLabel": "Creative",
     "searchPlaceholder": "Search by city, advertiser, creative...",
-    "getReport": "Get Report",
-    "recentSearches": "Recent Searches"
+    "getReport": "Get report",
+    "recentSearches": "Recent searches",
+    "freeSpace": "Free space",
+    "occupiedSpace": "Occupied space",
+    "demoTariffMessage": "The tariff in use",
+    "demoTariffDetails": "For full details, see the available tariffs.",
+    "viewTariffs": "View tariffs",
+    "noFilter": "No filter"
+  },
+  "settings": {
+    "emailTitle": "Email",
+    "notificationsTitle": "Receive Notifications",
+    "notifications": {
+      "summaryReport": "Summary Report",
+      "favoritesUpdate": "Favorites Update",
+      "newOffers": "New Offers",
+      "reminders": "Reminders"
+    },
+    "saveButton": "Save"
+  },
+  "tariffs": {
+    "active_tarrifs": "Active Tariffs",
+    "options_tarrifs": "Get Access Now",
+    "update_button": "Update for",
+    "purchase_date": "Purchase Date",
+    "updates_count": "Number of Updates Since Purchase",
+    "get_invoice": "Get Invoice",
+    "buy_button": "Buy for",
+    "tracked_panels": "Tracked panels"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Currently empty",
+    "total": "Total",
+    "get_invoice": "Get invoice",
+    "remove_button": "Remove from cart"
+  },
+  "invoices": {
+    "pending_title": "Pending Invoices",
+    "paid_title": "Paid Invoices",
+    "invoice_number": "Invoice Number",
+    "invoice_date": "Invoice Date",
+    "services": "Services",
+    "total_amount": "Total Amount",
+    "due_date": "Due Date",
+    "no_invoices": "No invoices available"
+  },
+  "invoice": {
+    "title": "Invoice",
+    "recipient": "Recipient",
+    "invoice_number": "Invoice №",
+    "invoice_date": "Invoice Date",
+    "due_date": "Due Date",
+    "bank": "Bank",
+    "account_details": "Account Details",
+    "service": "Service",
+    "price": "Price",
+    "total_amount": "Total Amount",
+    "pay_button": "Pay",
+    "comment": "Services will be activated on the next business day after payment.",
+    "close_button": "Close"
+  },
+  "admin_panel": {
+    "items": "Items",
+    "invoices": "Invoices",
+    "advertisers": "Advertisers",
+    "creatives": "Creatives",
+    "images": "Photos"
+  },
+  "categories": {
+    "Politics": "Politics",
+    "Pharmacies": "Pharmacies",
+    "Sport": "Sport",
+    "Hypermarkets": "Hypermarkets",
+    "Construction Stores": "Construction Stores",
+    "Online Stores": "Online Stores",
+    "Real Estate": "Real Estate",
+    "Banks": "Banks",
+    "Microcredits": "Microcredits",
+    "Tourism and Recreation": "Tourism and Recreation",
+    "Cars": "Cars",
+    "Mobile Operators": "Mobile Operators",
+    "Culture and Art": "Culture and Art",
+    "Restaurants": "Restaurants",
+    "Beauty and Health": "Beauty and Health",
+    "Social Projects": "Social Projects",
+    "Gambling": "Gambling",
+    "Gas Stations": "Gas Stations",
+    "Furniture Stores": "Furniture Stores",
+    "Food Products": "Food Products",
+    "Electronics Stores": "Electronics Stores",
+    "Grocery Stores": "Grocery Stores",
+    "Advertising Placement": "Advertising Placement",
+    "Building Materials": "Building Materials",
+    "Household Goods": "Household Goods",
+    "Clothing and Footwear": "Clothing and Footwear",
+    "IT and Technology": "IT and Technology"
+  },
+  "itemInfo": {
+    "panel": "Panel",
+    "imageAlt": "Image {{name}}",
+    "lastUpdate": "Last Update",
+    "advertiser": "Advertiser",
+    "creative": "Creative",
+    "loadHistory": "Load History",
+    "noHistory": "No history",
+    "noData": "No data",
+    "none": "None",
+    "close": "Close",
+    "fullscreenImageAlt": "Fullscreen image",
+    "historyImageAlt": "History {{date}}"
   }
 }

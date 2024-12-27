@@ -1,0 +1,194 @@
+{
+  "header": {
+    "title": "ADVE.SPACE",
+    "slogan1": "Pubblicità Esterni",
+    "slogan2": "e Monitoraggio delle Campagne",
+    "login": "Accedi",
+    "logout": "Esci",
+    "authOption": "Accedi con",
+    "googleAuth": "Google",
+    "close": "Chiudi"
+  },
+
+  "user_menu": {
+    "notifications": "Notifiche",
+    "application": "Applicazione",
+    "tariffs": "Tariffe",
+    "invoices": "Fatture",
+    "settings": "Impostazioni",
+    "logout": "Esci",
+    "admin": "Pannello di Amministrazione"
+  },
+
+  "how_it_works": "Come funziona?",
+  "interactive_map": "Mappa interattiva delle strutture pubblicitarie in tempo reale",
+  "get_access_now": "Ottieni accesso ora",
+  "cities": {
+    "bucharest": "Bucarest",
+    "brasov": "Brasov",
+    "constanta": "Costanza"
+  },
+  "pricing": {
+    "current_info": "Tutte le informazioni attuali",
+    "billboards": "10.000 cartelloni pubblicitari",
+    "as_of_today": "A PARTIRE DA OGGI!",
+    "history_from_2024": "+ storia dal 2024"
+  },
+  "what_you_will_get": "Cosa otterrai?",
+  "features": {
+    "personal_account": "Accesso al conto personale",
+    "advertising_map": "Mappa con le strutture pubblicitarie",
+    "current_creative": "Foto del creativ attuale sulla struttura pubblicitaria",
+    "creative_history": "Storia del creativ sulla struttura pubblicitaria",
+    "creative_analytics": "Analisi per i creativi",
+    "advertiser_analytics": "Analisi per i pubblicitari",
+    "coverage_diagrams": "Diagrammi di copertura"
+  },
+  "about_us": {
+    "title": "Chi siamo?",
+    "content": "adve.space è una piattaforma indipendente di monitoraggio della pubblicità esterna, creata per pubblicitari, agenzie e chiunque sia interessato al mondo della pubblicità esterna. Il nostro obiettivo è rendere il mercato della pubblicità esterna più trasparente e accessibile, fornendo dati aggiornati e dettagliati sulle campagne pubblicitarie a livello nazionale."
+  },
+  "our_values": {
+    "title": "I nostri valori",
+    "accuracy": "Accuratezza:",
+    "accuracy_text": "Database continuamente aggiornato su creativi, strutture e campagne.",
+    "independence": "Indipendenza:",
+    "independence_text": "Siamo una piattaforma neutrale focalizzata esclusivamente sulla fornitura di analisi di qualità.",
+    "innovation": "Innovazione:",
+    "innovation_text": "Usiamo tecnologie moderne per analizzare e visualizzare i dati."
+  },
+  "footer": {
+    "rights": "adve.space | Piattaforma indipendente di monitoraggio della pubblicità esterna © 2024 adve.space. Tutti i diritti riservati.",
+    "links": {
+      "about": "Chi siamo",
+      "offers": "Offerte",
+      "contacts": "Contatti",
+      "partnership": "Partnership",
+      "privacy_policy": "Politica sulla Privacy",
+      "user_agreement": "Contratto con l'utente"
+    }
+  },
+  "app": {
+    "filter": "Filtro",
+    "activeTariffLabel": "Per tariffa",
+    "categories": "Categoria",
+    "cityLabel": "Città:",
+    "advertisers": "Inserzionista",
+    "searchAdvertisers": "Cerca inserzionista",
+    "availabilityLabel": "Disponibilità",
+    "creativeLabel": "Creativo",
+    "searchPlaceholder": "Cerca per città, inserzionista, creativo...",
+    "getReport": "Ottieni rapporto",
+    "recentSearches": "Ricerche recenti",
+    "freeSpace": "Spazio libero",
+    "occupiedSpace": "Spazio occupato",
+    "demoTariffMessage": "La tariffa in uso",
+    "demoTariffDetails": "Per i dettagli completi, consultare le tariffe disponibili.",
+    "viewTariffs": "Visualizza le tariffe",
+    "noFilter": "Nessun filtro"
+  },
+  "settings": {
+    "emailTitle": "Email",
+    "notificationsTitle": "Ricevi Notifiche",
+    "notifications": {
+      "summaryReport": "Report riassuntivo",
+      "favoritesUpdate": "Aggiornamenti preferiti",
+      "newOffers": "Nuove offerte",
+      "reminders": "Promemoria"
+    },
+    "saveButton": "Salva"
+  },
+  "tariffs": {
+    "active_tarrifs": "Tariffe attive",
+    "options_tarrifs": "Ottieni accesso ora",
+    "update_button": "Aggiorna per",
+    "purchase_date": "Data di acquisto",
+    "updates_count": "Numero di aggiornamenti dall'acquisto",
+    "get_invoice": "Ottieni fattura",
+    "buy_button": "Acquista per",
+    "tracked_panels": "Pannelli monitorati"
+  },
+  "cart": {
+    "title": "Carrello",
+    "empty": "Attualmente vuoto",
+    "total": "Totale",
+    "get_invoice": "Ottieni fattura",
+    "remove_button": "Rimuovi dal carrello"
+  },
+  "invoices": {
+    "pending_title": "Fatture in sospeso",
+    "paid_title": "Fatture pagate",
+    "invoice_number": "Numero fattura",
+    "invoice_date": "Data fattura",
+    "services": "Servizi",
+    "total_amount": "Importo totale",
+    "due_date": "Data di scadenza",
+    "no_invoices": "Nessuna fattura disponibile"
+  },
+  "invoice": {
+    "title": "Fattura",
+    "recipient": "Destinatario",
+    "invoice_number": "Numero Fattura",
+    "invoice_date": "Data Fattura",
+    "due_date": "Data di Scadenza",
+    "bank": "Banca",
+    "account_details": "Dettagli Conto",
+    "service": "Servizio",
+    "price": "Prezzo",
+    "total_amount": "Importo Totale",
+    "pay_button": "Paga",
+    "comment": "I servizi saranno attivati il giorno lavorativo successivo al pagamento.",
+    "close_button": "Chiudi"
+  },
+  "admin_panel": {
+    "items": "Strutture",
+    "invoices": "Fatture",
+    "advertisers": "Inserzionisti",
+    "creatives": "Creativi",
+    "images": "Foto"
+  },
+  "categories": {
+    "Politics": "Politica",
+    "Pharmacies": "Farmacie",
+    "Sport": "Sport",
+    "Hypermarkets": "Ipermercati",
+    "Construction Stores": "Negozi di costruzione",
+    "Online Stores": "Negozi online",
+    "Real Estate": "Immobili",
+    "Banks": "Banche",
+    "Microcredits": "Microcrediti",
+    "Tourism and Recreation": "Turismo e svago",
+    "Cars": "Auto",
+    "Mobile Operators": "Operatori mobili",
+    "Culture and Art": "Cultura e arte",
+    "Restaurants": "Ristoranti",
+    "Beauty and Health": "Bellezza e salute",
+    "Social Projects": "Progetti sociali",
+    "Gambling": "Giochi d'azzardo",
+    "Gas Stations": "Stazioni di servizio",
+    "Furniture Stores": "Negozi di mobili",
+    "Food Products": "Prodotti alimentari",
+    "Electronics Stores": "Negozi di elettronica",
+    "Grocery Stores": "Negozi di alimentari",
+    "Advertising Placement": "Posizionamento pubblicitario",
+    "Building Materials": "Materiali da costruzione",
+    "Household Goods": "Prodotti per la casa",
+    "Clothing and Footwear": "Abbigliamento e calzature",
+    "IT and Technology": "IT e tecnologia"  
+  },
+  "itemInfo": {
+    "panel": "Pannello",
+    "imageAlt": "Immagine {{name}}",
+    "lastUpdate": "Ultimo aggiornamento",
+    "advertiser": "Inserzionista",
+    "creative": "Creativo",
+    "loadHistory": "Carica cronologia",
+    "noHistory": "Nessuna cronologia",
+    "noData": "Nessun dato",
+    "none": "Nessuno",
+    "close": "Chiudi",
+    "fullscreenImageAlt": "Immagine a schermo intero",
+    "historyImageAlt": "Cronologia {{date}}"
+  }
+}
+  

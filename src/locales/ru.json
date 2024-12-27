@@ -1,18 +1,30 @@
 {
   "header": {
-      "title": "ADVE.SPACE",
-      "slogan1": "Мониторинг наружной рекламы",
-      "slogan2": "и рекламных кампаний",
-      "login": "Войти",
-      "logout": "Выйти"
+    "title": "ADVE.SPACE",
+    "slogan1": "Мониторинг наружной рекламы",
+    "slogan2": "и рекламных кампаний",
+    "login": "Войти",
+    "logout": "Выйти",
+    "authOption": "Войти c помощью",
+    "googleAuth": "Google",
+    "close": "Закрыть"
     },
+  "user_menu": {
+    "notifications": "Уведомления",
+    "application": "Поиск на карте",
+    "tariffs": "Тарифы",
+    "invoices": "Счета",
+    "settings": "Настройки",
+    "logout": "Выход",
+    "admin": "Администрирование"
+  },
   "how_it_works": "Как это работает?",
   "interactive_map": "Интерактивная карта рекламных конструкций в режиме реального времени",
   "get_access_now": "Получи доступ сейчас",
   "cities": {
-      "bucharest": "Бухарест",
-      "brasov": "Брашов",
-      "constanta": "Констанца"
+    "bucharest": "Бухарест",
+    "brasov": "Брашов",
+    "constanta": "Констанца"
   },
   "pricing": {
     "current_info": "Вся актуальная информация",
@@ -22,45 +34,158 @@
   },
   "what_you_will_get": "Что вы будете иметь?",
   "features": {
-      "personal_account": "Доступ в персональный кабинет",
-      "advertising_map": "Карта с рекламными конструкциями",
-      "current_creative": "Фото текущего креатива на рекламной конструкции",
-      "creative_history": "История креативов на рекламной конструкции",
-      "creative_analytics": "Аналитика по креативам",
-      "advertiser_analytics": "Аналитика по рекламодателям",
-      "coverage_diagrams": "Диаграммы покрытия"
+    "personal_account": "Доступ в персональный кабинет",
+    "advertising_map": "Карта с рекламными конструкциями",
+    "current_creative": "Фото текущего креатива на рекламной конструкции",
+    "creative_history": "История креативов на рекламной конструкции",
+    "creative_analytics": "Аналитика по креативам",
+    "advertiser_analytics": "Аналитика по рекламодателям",
+    "coverage_diagrams": "Диаграммы покрытия"
   },
   "about_us": {
-      "title": "Кто мы?",
-      "content": "adve.space — это независимая платформа мониторинга наружной рекламы, созданная для рекламодателей, агентств и всех, кто интересуется миром outdoor-рекламы. Мы стремимся сделать рынок наружной рекламы более прозрачным и доступным, предоставляя актуальные и подробные данные о рекламных кампаниях по всей стране."
+    "title": "Кто мы?",
+    "content": "adve.space — это независимая платформа мониторинга наружной рекламы, созданная для рекламодателей, агентств и всех, кто интересуется миром outdoor-рекламы. Мы стремимся сделать рынок наружной рекламы более прозрачным и доступным, предоставляя актуальные и подробные данные о рекламных кампаниях по всей стране."
   },
   "our_values": {
-      "title": "Наши ценности",
-      "accuracy": "Точность:",
-      "accuracy_text": "Постоянно обновляемая база данных о креативах, конструкциях и кампаниях.",
-      "independence": "Независимость:",
-      "independence_text": "Мы являемся нейтральной площадкой, работающей исключительно на предоставление качественной аналитики.",
-      "innovation": "Инновации:",
-      "innovation_text": "Используем современные технологии для анализа и визуализации данных."
+    "title": "Наши ценности",
+    "accuracy": "Точность:",
+    "accuracy_text": "Постоянно обновляемая база данных о креативах, конструкциях и кампаниях.",
+    "independence": "Независимость:",
+    "independence_text": "Мы являемся нейтральной площадкой, работающей исключительно на предоставление качественной аналитики.",
+    "innovation": "Инновации:",
+    "innovation_text": "Используем современные технологии для анализа и визуализации данных."
   },
   "footer": {
-      "rights": "adve.space | Независимая платформа мониторинга наружной рекламы © 2024 adve.space. Все права защищены.",
-      "links": {
-          "about": "О нас",
-          "offers": "Предложения",
-          "contacts": "Контакты",
-          "partnership": "Сотрудничество",
-          "privacy_policy": "Политика конфиденциальности",
-          "user_agreement": "Пользовательское соглашение"
-      }
+    "rights": "adve.space | Независимая платформа мониторинга наружной рекламы © 2024 adve.space. Все права защищены.",
+    "links": {
+        "about": "О нас",
+        "offers": "Предложения",
+        "contacts": "Контакты",
+        "partnership": "Сотрудничество",
+        "privacy_policy": "Политика конфиденциальности",
+        "user_agreement": "Пользовательское соглашение"
+    }
   },
   "app": {
+    "filter": "Фильтр",
+    "activeTariffLabel": "По тарифу",
+    "categories": "Категория",
     "cityLabel": "Город:",
-    "advertiserLabel": "Рекламодатель",
+    "advertisers": "Рекламодатель",
+    "searchAdvertisers": "Найти рекламодателя",
+    "availabilityLabel": "Доступность",
     "creativeLabel": "Креатив",
     "searchPlaceholder": "Поиск по городу, рекламодателю, креативу...",
     "getReport": "Получить отчет",
-    "recentSearches": "Последние поиски"
+    "recentSearches": "Последние поиски",
+    "freeSpace": "Свободное место",
+    "occupiedSpace": "Занятое место",
+    "demoTariffMessage": "Используется тариф",
+    "demoTariffDetails": "Для получения полной информации ознакомьтесь с доступными тарифами.",
+    "viewTariffs": "Посмотреть тарифы",
+    "noFilter": "Без фильтра"
+  },
+  "settings": {
+    "emailTitle": "Электронная почта",
+    "notificationsTitle": "Получать уведомления",
+    "notifications": {
+      "summaryReport": "Сводный отчет",
+      "favoritesUpdate": "Обновление избранного",
+      "newOffers": "Новые предложения",
+      "reminders": "Напоминания"
+    },
+    "saveButton": "Сохранить"
+  },
+  "tariffs": {
+    "active_tarrifs": "Активные тарифы",
+    "options_tarrifs": "Доступные тарифы",
+    "update_button": "Обновить за",
+    "purchase_date": "Дата покупки",
+    "updates_count": "Количество обновлений с момент покупки",
+    "buy_button": "Купить за",
+    "no_more_options": "Других тарифов нет"
+  },
+  "cart": {
+    "title": "Корзина",
+    "empty": "Пока пусто",
+    "total": "Всего",
+    "get_invoice": "Получить счет на оплату",
+    "remove_button": "Удалить из корзины"
+  },
+  "invoices": {
+    "pending_title": "Ожидают оплаты",
+    "paid_title": "Оплаченные инвойсы",
+    "invoice_number": "№ Инвойса",
+    "invoice_date": "Дата Инвойса",
+    "services": "Услуги",
+    "total_amount": "Общая сумма",
+    "due_date": "Дата оплаты",
+    "no_invoices": "Нет инвойсов"
+  },
+  "invoice": {
+    "title": "Счет-фактура",
+    "recipient": "Получатель",
+    "invoice_number": "№ инвойса",
+    "invoice_date": "Дата инвойса",
+    "due_date": "Дата оплаты",
+    "bank": "Банк",
+    "account_details": "Реквизиты",
+    "service": "Услуга",
+    "price": "Стоимость",
+    "total_amount": "Итоговая стоимость",
+    "pay_button": "Оплатить",
+    "comment": "Услуги активируются в течение следующего рабочего дня после оплаты.",
+    "close_button": "Закрыть"
+  },
+  "admin_panel": {
+    "items": "Конструкции",
+    "invoices": "Инвойсы",
+    "advertisers": "Рекламодатели",
+    "creatives": "Креативы",
+    "images": "Фото"
+  },
+  "categories": {
+    "Politics": "Политика",
+    "Pharmacies": "Аптеки",
+    "Sport": "Спорт",
+    "Hypermarkets": "Гипермаркеты",
+    "Construction Stores": "Строительные магазины",
+    "Online Stores": "Интернет магазины",
+    "Real Estate": "Недвижимость",
+    "Banks": "Банки",
+    "Microcredits": "Микрокредиты",
+    "Tourism and Recreation": "Туризм и отдых",
+    "Cars": "Автомобили",
+    "Mobile Operators": "Мобильные операторы",
+    "Culture and Art": "Культура и искусство",
+    "Restaurants": "Рестораны",
+    "Beauty and Health": "Красота и здоровье",
+    "Social Projects": "Социальные проекты",
+    "Gambling": "Азартные игры",
+    "Gas Stations": "АЗС",
+    "Furniture Stores": "Мебельные магазины",
+    "Food Products": "Продукты питания",
+    "Electronics Stores": "Магазины электроники",
+    "Grocery Stores": "Продуктовые магазины",
+    "Advertising Placement": "Размещение рекламы",
+    "Building Materials": "Строительные материалы",
+    "Household Goods": "Товары для дома",
+    "Clothing and Footwear": "Одежда и обувь",
+    "IT and Technology": "IT и технологии"
+  },
+  "itemInfo": {
+    "panel": "Панель",
+    "imageAlt": "Изображение {{name}}",
+    "lastUpdate": "Последнее обновление",
+    "advertiser": "Рекламодатель",
+    "creative": "Креатив",
+    "loadHistory": "Загрузить историю",
+    "noHistory": "История отсутствует",
+    "noData": "Нет данных",
+    "none": "Нет",
+    "close": "Закрыть",
+    "fullscreenImageAlt": "Полноэкранное изображение",
+    "historyImageAlt": "История {{date}}"
   }
 }
 

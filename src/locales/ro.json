@@ -4,8 +4,20 @@
         "slogan1": "Monitorizarea publicității exterioare",
         "slogan2": "și a campaniilor publicitare",
         "login": "Autentificare",
-        "logout": "Deconectare"
+        "logout": "Deconectare",
+        "authOption": "Autentificare cu",
+        "googleAuth": "Google",
+        "close": "Închide"
     },
+    "user_menu": {
+        "notifications": "Notificări",
+        "application": "Aplicație",
+        "tariffs": "Tarife",
+        "invoices": "Facturi",
+        "settings": "Setări",
+        "logout": "Deconectare",
+        "admin": "Administrare"
+        },
     "how_it_works": "Cum funcționează?",
     "interactive_map": "Hartă interactivă a structurilor publicitare în timp real",
     "get_access_now": "Obține acces acum",
@@ -55,12 +67,127 @@
         }
     },
     "app": {
+        "filter": "Filtru",
+        "activeTariffLabel": "După tarif",
+        "categories": "Categorie",
         "cityLabel": "Oraș:",
-        "advertiserLabel": "Reclamător",
+        "advertisers": "Reclamant",
+        "searchAdvertisers": "Caută reclamant",
+        "availabilityLabel": "Disponibilitate",
         "creativeLabel": "Creativ",
-        "searchPlaceholder": "Căutare după oraș, advertiser, creativ...",
-        "getReport": "Obține raportul",
-        "recentSearches": "Căutări recente"
+        "searchPlaceholder": "Căutare după oraș, reclamant, creativ...",
+        "getReport": "Obține raport",
+        "recentSearches": "Căutări recente",
+        "freeSpace": "Spațiu liber",
+        "occupiedSpace": "Spațiu ocupat",
+        "demoTariffMessage": "Se folosește tariful",
+        "demoTariffDetails": "Pentru informații complete, consultați tarifele disponibile.",
+        "viewTariffs": "Vezi tarifele",
+        "noFilter": "Fără filtru"
+    },
+    "settings": {
+      "emailTitle": "Email",
+      "notificationsTitle": "Primește notificări",
+      "notifications": {
+        "summaryReport": "Raport sumar",
+        "favoritesUpdate": "Actualizare favorite",
+        "newOffers": "Oferte noi",
+        "reminders": "Mementouri"
+      },
+      "saveButton": "Salvează"
+    },
+    "tariffs": {
+        "active_tarrifs": "Tarife Active",
+        "options_tarrifs": "Obține acces acum",
+        "update_button": "Actualizează pentru",
+        "purchase_date": "Data Achiziției",
+        "updates_count": "Numărul de Actualizări de la Achiziție",
+        "get_invoice": "Obține Factura",
+        "buy_button": "Cumpără pentru",
+        "tracked_panels": "Panouri urmărite"
+    },
+    "cart": {
+        "title": "Coș",
+        "empty": "Deocamdată gol",
+        "total": "Total",
+        "get_invoice": "Obține factură",
+        "remove_button": "Elimină din coș"
+    },
+    "invoices": {
+        "pending_title": "Facturi în așteptare",
+        "paid_title": "Facturi plătite",
+        "invoice_number": "Număr factură",
+        "invoice_date": "Data facturii",
+        "services": "Servicii",
+        "total_amount": "Sumă totală",
+        "due_date": "Data scadenței",
+        "no_invoices": "Nu există facturi disponibile"
+    },
+    "invoice": {
+        "title": "Factură",
+        "recipient": "Destinatar",
+        "invoice_number": "Număr Factură",
+        "invoice_date": "Data Facturii",
+        "due_date": "Data Scadenței",
+        "bank": "Bancă",
+        "account_details": "Detalii Cont",
+        "service": "Serviciu",
+        "price": "Preț",
+        "total_amount": "Suma Totală",
+        "pay_button": "Plătește",
+        "comment": "Serviciile vor fi activate în următoarea zi lucrătoare după plată.",
+        "close_button": "Închide"
+    },
+    "admin_panel": {
+        "items": "Structuri",
+        "invoices": "Facturi",
+        "advertisers": "Reclamanți",
+        "creatives": "Creativ",
+        "images": "Fotografii"
+    },
+    "categories": {
+        "Politics": "Politică",
+        "Pharmacies": "Farmacii",
+        "Sport": "Sport",
+        "Hypermarkets": "Hipermarketuri",
+        "Construction Stores": "Magazine de construcții",
+        "Online Stores": "Magazine online",
+        "Real Estate": "Imobiliare",
+        "Banks": "Bănci",
+        "Microcredits": "Microcredite",
+        "Tourism and Recreation": "Turism și recreere",
+        "Cars": "Mașini",
+        "Mobile Operators": "Operatori mobili",
+        "Culture and Art": "Cultură și artă",
+        "Restaurants": "Restaurante",
+        "Beauty and Health": "Frumusețe și sănătate",
+        "Social Projects": "Proiecte sociale",
+        "Gambling": "Jocuri de noroc",
+        "Gas Stations": "Stații de alimentare",
+        "Furniture Stores": "Magazine de mobilă",
+        "Food Products": "Produse alimentare",
+        "Electronics Stores": "Magazine de electronice",
+        "Grocery Stores": "Magazine alimentare",
+        "Advertising Placement": "Plasament publicitar",
+        "Building Materials": "Materiale de construcție",
+        "Household Goods": "Produse pentru gospodărie",
+        "Clothing and Footwear": "Îmbrăcăminte și încălțăminte",
+        "IT and Technology": "IT și tehnologie"
+    },
+    "itemInfo": {
+        "panel": "Panou",
+        "imageAlt": "Imagine {{name}}",
+        "lastUpdate": "Ultima actualizare",
+        "advertiser": "Advertiser",
+        "creative": "Creativ",
+        "loadHistory": "Încarcă istoria",
+        "noHistory": "Nu există istorie",
+        "noData": "Nu există date",
+        "none": "Niciunul",
+        "close": "Închide",
+        "fullscreenImageAlt": "Imagine pe tot ecranul",
+        "historyImageAlt": "Istoric {{date}}"
     }
-  }
+
+}
   
