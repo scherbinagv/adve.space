@@ -114,7 +114,7 @@ function App() {
   const handleLanguageChange = (event) => {
     const newLanguage = event.value;
     i18n.changeLanguage(newLanguage); // Меняем язык
-    navigate(`/${newLanguage}${window.location.pathname.replace(/^\/[a-z]{2}/, '')}`); // Навигация без перезагрузки
+    navigate(`./${newLanguage}${window.location.pathname.replace(/^\/[a-z]{2}/, '')}`); // Навигация без перезагрузки
   };
 
   const handleLoginSuccess = async (response) => {
@@ -149,7 +149,7 @@ function App() {
 
         // Устанавливаем состояние аутентификации и выполняем редирект
         setIsAuthenticated(true); // Авторизация
-        navigate(`/${i18n.language}/app`); // Переход на страницу /ru/app или /en/app
+        navigate(`./${i18n.language}/app`); // Переход на страницу /ru/app или /en/app
         setShowPopup(false); // Закрытие popup при необходимости
 
     } catch (error) {
