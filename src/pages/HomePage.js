@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import '../style/homepage.css'; // Импорт стилей
 import L from 'leaflet';  // Подключаем Leaflet
 import { useTranslation } from 'react-i18next';
 
@@ -30,8 +29,8 @@ const HomePage = () => {
             {
             lat: 44.4279,
             lng: 26.1014,
-            images: ['/images/bb_free.png', '/images/bb_free2.png', '/images/bb_free3.png'],
-            iconUrl: '/images/bb1.svg',
+            images: ['./images/bb_free.png', './images/bb_free2.png', './images/bb_free3.png'],
+            iconUrl: './images/bb1.svg',
             lastUpdate: 'Сегодня',
             creative: 'Свободное место',
             advertiser: 'Нет',
@@ -40,8 +39,8 @@ const HomePage = () => {
             {
             lat: 44.4268,
             lng: 26.1025,
-            images: ['/images/bb_free2.png', '/images/bb_free.png'],
-            iconUrl: '/images/bb2.svg',
+            images: ['./images/bb_free2.png', './images/bb_free.png'],
+            iconUrl: './images/bb2.svg',
             lastUpdate: 'Сегодня',
             creative: 'Свободное место',
             advertiser: 'Нет',
@@ -50,8 +49,8 @@ const HomePage = () => {
             {
             lat: 44.4257,
             lng: 26.1032,
-            images: ['/images/bb_free.png', '/images/bb_free3.png'],
-            iconUrl: '/images/bb3.svg',
+            images: ['./images/bb_free.png', './images/bb_free3.png'],
+            iconUrl: './images/bb3.svg',
             lastUpdate: 'Вчера',
             creative: 'Новое объявление',
             advertiser: 'Компания ABC',
