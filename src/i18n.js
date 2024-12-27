@@ -27,7 +27,14 @@ i18n
       escapeValue: false // Не экранируем перевод
     },
     detection: {
-      order: ['querystring', 'cookie', 'localStorage', 'navigator', 'htmlTag', 'path'], // Сначала из querystring (например, /en)
+      order: [
+        'querystring', 
+        'cookie', 
+        'localStorage',
+        'navigator', 
+        'htmlTag', 
+        'path'
+      ],
       // caches: ['cookie', 'localStorage'], // Кешируем язык в cookie и localStorage
       lookupQuerystring: 'lng', // Ищем язык в querystring по параметру lng (например, /?lng=en)
       lookupLocalStorage: 'i18nextLng', // Ищем язык в localStorage по ключу i18nextLng
