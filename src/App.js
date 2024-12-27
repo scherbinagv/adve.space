@@ -1,5 +1,5 @@
 import React, { useEffect, useState  }  from 'react';
-import { BrowserRouter as  Routes, Route, Navigate, useParams, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, useParams, useNavigate } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import Application from './pages/Application';
 import Tariffs from './pages/app/Tariffs';
