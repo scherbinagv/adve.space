@@ -120,7 +120,7 @@ const HomePage = () => {
 
             <div className="section">
                 <h2>{t('get_access_now')}</h2>
-                <div className="pricing section">
+                {/* <div className="pricing section">
                     <div className="card">
                         <h3>{t('cities.bucharest')}</h3>
                         <p>$500</p>
@@ -154,7 +154,7 @@ const HomePage = () => {
                         </p>       
                         <a className="button">{t('get_access_now')}</a>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="section">
                     <h2>{t('what_you_will_get')}</h2>
