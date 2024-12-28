@@ -190,7 +190,9 @@ function App() {
               <div className="popup">
                 <div className='popup-container-small'> 
                       <h3>{t('header.authOption')}</h3>
-                      <GoogleOAuthProvider clientId="211956952890-neigfhdpot2959e49k63t48mad76olgl.apps.googleusercontent.com">
+                      {/* <GoogleOAuthProvider clientId="211956952890-neigfhdpot2959e49k63t48mad76olgl.apps.googleusercontent.com"> */}
+                      <GoogleOAuthProvider clientId="211956952890-s2qepe0vhfojrf5jiirotdaep611036d.apps.googleusercontent.com"> 
+
                           <div className="google-login-button">
                             <GoogleLogin 
                                 onSuccess={(response) => handleLoginSuccess(response, setIsAuthenticated, setShowPopup)}
