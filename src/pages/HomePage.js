@@ -119,7 +119,7 @@ const HomePage = () => {
             </div>
 
             <div className="section">
-                <h2>{t('get_access_now')}</h2>
+                {/* <h2>{t('get_access_now')}</h2> */}
                 {/* <div className="pricing section">
                     <div className="card">
                         <h3>{t('cities.bucharest')}</h3>
