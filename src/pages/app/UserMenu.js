@@ -17,27 +17,27 @@ function UserMenu({ username, handleLogoutClick }) {
   const toggleMenu = () => setMenuOpen((prev) => !prev);
 
   const handleAppClick = () => {
-    navigate('./' + i18n.language + '/app'); 
+    navigate('/' + i18n.language + '/app'); 
     setMenuOpen(false);
   };
 
   const handleTariffsClick = () => {
-    navigate('./' + i18n.language + '/tariffs'); 
+    navigate('/' + i18n.language + '/tariffs'); 
     setMenuOpen(false);
   };
 
   const handleInvoicesClick = () => {
-    navigate('./' + i18n.language + '/invoices'); 
+    navigate('/' + i18n.language + '/invoices'); 
     setMenuOpen(false);
   };
 
   const handleSettingsClick = () => {
-    navigate('./' + i18n.language + '/settings'); 
+    navigate('/' + i18n.language + '/settings'); 
     setMenuOpen(false);
   };
 
   const handleAdminPanelClick = () => {
-    navigate('./' + i18n.language + '/admin/'); 
+    navigate('/' + i18n.language + '/admin'); 
     setMenuOpen(false);
   };
 

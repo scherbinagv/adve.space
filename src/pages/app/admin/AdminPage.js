@@ -20,19 +20,19 @@ const AdminPage = () => {
   };
 
   const handleInvoicesClick = () => {
-    navigate(`./${i18n.language}/admin/invoices`);
+    navigate(`/${i18n.language}/admin/invoices`);
   };
 
   const handleAdvertisersClick = () => {
-    navigate(`./${i18n.language}/admin/advertisers`);
+    navigate(`/${i18n.language}/admin/advertisers`);
   };
 
   const handleCreativesClick = () => {
-    navigate(`./${i18n.language}/admin/creatives`);
+    navigate(`/${i18n.language}/admin/creatives`);
   };
 
   const handleImagesClick = () => {
-    navigate(`./${i18n.language}/admin/images`);
+    navigate(`/${i18n.language}/admin/images`);
   };
 
   return (
@@ -86,12 +86,12 @@ const AdminPage = () => {
 
       <div className="admin-content">
         <Routes>
-          <Route path="/" element={<Navigate to="./:lang/admin/items" />} />  {/* Переход по умолчанию */}
-          <Route path="./items" element={<ItemsMap />} />
-          <Route path="./invoices" element={<AdminInvoices />} />
-          <Route path="./advertisers" element={<AdminAdvertisers />} />
-          <Route path="./creatives" element={<AdminCreatives />} />
-          <Route path="./images" element={<AdminImages />} />
+          <Route path="/" element={<Navigate to={`/${i18n.language}/admin/items`} />} />  {/* Переход по умолчанию */}
+          <Route path="/items" element={<ItemsMap />} />
+          <Route path="/invoices" element={<AdminInvoices />} />
+          <Route path="/advertisers" element={<AdminAdvertisers />} />
+          <Route path="/creatives" element={<AdminCreatives />} />
+          <Route path="/images" element={<AdminImages />} />
         </Routes>
       </div>
     </div>
