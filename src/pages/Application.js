@@ -6,11 +6,6 @@ import ReportView from './app/ReportView';
 import { MapContainer, TileLayer, Marker, Popup, useMapEvents } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-markercluster';
 import { useMemo } from "react";
-
-
-
-
-import '../style/application.css'; 
 import L from 'leaflet';  // Подключаем Leaflet
 import config from '../config'; 
 
